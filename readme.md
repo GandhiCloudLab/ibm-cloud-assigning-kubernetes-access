@@ -2,7 +2,7 @@
 
 This article explains about how to invite an user into IBM Cloud account and give access to one of the Kubernetes  service in that account.
 
-#### Invite user along with Kubernetes Access
+## Invite an user along with Kubernetes Access
 
 1. Open the User management page by click on `Manage > IAM > Users`
 2. Click on `Invite Users`
@@ -38,7 +38,7 @@ Invite users page is opened.
 User will be in  `Pending` state
 <img src="images/img-18.png">
 
-#### Accept Invitation
+## Accept Invitation
 
 User might have received mail from IBM cloud to join the account.
 
@@ -56,7 +56,7 @@ So we have invited an user along with an access  to one of the Kubernetes  servi
 
 If required we can give access to one more cluster for the same user again.
 
-#### Give Another Kubernetes access
+## Give Another Kubernetes access
 
 16. Click on `Assign Access`
 
