@@ -2,12 +2,14 @@
 
 This article explains about how to invite an user into IBM Cloud account and give access to one of the Kubernetes  service in that account.
 
+#### Invite user along with Kubernetes Access
 
 1. Open the User management page by click on `Manage > IAM > Users`
 2. Click on `Invite Users`
 <img src="images/img-11.png">
 
 Invite users page is opened.
+
 3. Select the `Access Policy` option
 
 <img src="images/img-12.png">
@@ -23,28 +25,30 @@ Invite users page is opened.
 9. Click on `Next`
 <img src="images/img-14.png">
 
-8. Select the roles as per your need.
-9. Click on `Review`
+10. Select the roles as per your need.
+11. Click on `Review`
 <img src="images/img-15.png">
 
-9. Click on `Add`
+12. Click on `Add`
 <img src="images/img-16.png">
 
-9. Click on `Invite`
+13. Click on `Invite`
 <img src="images/img-17.png">
 
 User will be in  `Pending` state
 <img src="images/img-18.png">
 
+#### Accept Invitation
+
 User might have received mail from IBM cloud to join the account.
 
-9. The user might click on `Join Now` link in the mail and join.
+14. The user might click on `Join Now` link in the mail and join.
 <img src="images/img-19.png">
 
-User will become `Active` state
+User will goto `Active` state
 <img src="images/img-20.png">
 
-10. Go to `Users > access` screen
+15. Go to `Users > access` screen
 
 You can able to see the Kubernetes service access  is available.
 
@@ -52,19 +56,21 @@ So we have invited an user along with an access  to one of the Kubernetes  servi
 
 If required we can give access to one more cluster for the same user again.
 
-9. Click on `Assign Access` to give one more service if you want.
+#### Give Another Kubernetes access
+
+16. Click on `Assign Access`
 
 <img src="images/img-21.png">
 
-9. Fill the values as per your need.
+17. Fill the values as per your need.
 
 <img src="images/img-22.png">
 
-9. Fill the values as per your need.
-10. Click on `Assign` to give an acess.
+18. Fill the values as per your need.
+19. Click on `Assign` to give an access.
 
 <img src="images/img-23.png">
 
-Now you can able to see the another Kubernetes service access  is available.
+Now you can able to see the another Kubernetes service access is available.
 
 <img src="images/img-24.png">
